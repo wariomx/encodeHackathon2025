@@ -14,6 +14,10 @@
 
 Softlaw DAO is a decentralized protocol that brings copyright licensing and member coordination—lawyers, artists, musicians, investors, and creatives—on-chain. It enables transparent and autonomous management of treasury requests, membership applications, governance proposals, and the minting of copyright licenses.
 
+## 🌐 Web
+
+[www.soft.law](https://www.soft.law)
+
 ## 🔑 Key Features
 
 - **Digital Legal Licensing**: Create, validate, and manage legal licenses on-chain with full transparency and immutability
