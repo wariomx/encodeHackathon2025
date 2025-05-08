@@ -92,9 +92,11 @@ RPC_URL=https://westend-asset-hub-eth-rpc.polkadot.io
 
 ## 🔗 Related Projects
 
-This repository is part of a Web3 Foundation grant that is currently in progress. The DAO components developed during the hackathon will be integrated into the broader grant project.
-
-For more information about the W3F grant project, visit: [https://github.com/soft-law/W3F_Grant](https://github.com/soft-law/W3F_Grant)
+SoftLaw is currently engaged in a Web3 Foundation grant project that is still in progress.
+ It is important to note that the smart contracts developed during this hackathon are entirely outside the scope of the grant. These components were conceived and built independently as part of the hackathon effort.
+That said, the DAO modules created during the hackathon provide real value and will be integrated into the broader grant project to enhance its governance layer. Their development represents a meaningful contribution that extends beyond the original grant deliverables.
+For more information about the official Web3 Foundation grant project, please visit:
+ 👉 https://github.com/soft-law/W3F_Grant
 
 ## 👤 Team
 
