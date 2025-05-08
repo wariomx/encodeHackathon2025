@@ -61,9 +61,9 @@ pnpm install
 
 ### Citation and documentation followed.
 
-Open Zeppellin: [View Code](https://docs.openzeppelin.com/contracts/5.x/)
-Solidity: [View Code](https://docs.soliditylang.org/en/v0.8.28/)
-Contracts Polkadot: [View Code](https://contracts.polkadot.io/build-your-first-dapp)
+Open Zeppellin: [View Docs](https://docs.openzeppelin.com/contracts/5.x/)
+Solidity: [View Docs](https://docs.soliditylang.org/en/v0.8.28/)
+Contracts Polkadot: [View Docs](https://contracts.polkadot.io/build-your-first-dapp)
 
 ### Development Workflow
 
