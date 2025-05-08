@@ -1,4 +1,4 @@
-# 🧠 Softlaw
+# Softlaw DAO
 
 <div align="center">
   <img src="./assets/logo.png" alt="Softlaw Logo" width="250px">
@@ -7,48 +7,63 @@
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Built with Solidity](https://img.shields.io/badge/Built%20with-Solidity-7e4798.svg)](https://soliditylang.org/)
+  [![Polkadot Ecosystem](https://img.shields.io/badge/Ecosystem-Polkadot-E6007A.svg)](https://polkadot.network/)
 </div>
 
-## 📜 Overview
+## 📜 Project Description
 
-Softlaw is a decentralized legal automation protocol that bridges traditional legal frameworks with blockchain technology. Initially developed during a hackathon, this project is now evolving as part of a Web3 Foundation grant. The protocol enables the creation, management, and enforcement of digital legal licenses through smart contracts with DAO-based governance.
+Softlaw DAO is a decentralized protocol that brings copyright licensing and member coordination—lawyers, artists, musicians, investors, and creatives—on-chain. It enables transparent and autonomous management of treasury requests, membership applications, governance proposals, and the minting of copyright licenses.
 
 ## 🔑 Key Features
 
-- **Digital Legal Licensing**: Create and manage legal licenses on-chain
-- **DAO Governance**: Decentralized decision-making for protocol updates and license management
-- **Modular Treasury**: Flexible financial operations for the protocol ecosystem
-- **ERC-20 Utility Token**: Native token for governance and protocol functionality
+- **Digital Legal Licensing**: Create, validate, and manage legal licenses on-chain with full transparency and immutability
+- **DAO Governance**: Community-driven decision-making for protocol updates, membership approvals, and license management
+- **Modular Treasury**: Flexible financial operations to ensure the sustainability of the protocol ecosystem
+- **ERC-20 Utility Token**: Native token providing protocol utility
 
 ## 📦 Smart Contract Architecture
 
 The protocol consists of the following core smart contracts:
 
-| Contract               | Description                                                                                                    |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Governor.sol**       | Core DAO contract that manages proposals, calls, and memberships. Integrates with LicenseManager and Treasury. |
-| **LicenseManager.sol** | Handles creation, validation, and revocation of legal licenses across the protocol.                            |
-| **License.sol**        | Defines structure, permissions, and lifecycle for individual legal licenses.                                   |
-| **Treasury.sol**       | Manages the DAO's financial operations, token allocations, and transfers.                                      |
-| **Token.sol**          | ERC-20 compliant token providing governance rights and protocol utility.                                       |
+| Contract               | Description                                                                                                                 | Link                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Governor.sol**       | Core DAO contract managing licensing, administrative and treasury proposals, including internal function calls and encoding | [View Code](https://github.com/wariomx/encodeHackathon2025/blob/main/Governor.sol)       |
+| **LicenseManager.sol** | Intermediary between governor proposals and executions in the license contract                                              | [View Code](https://github.com/wariomx/encodeHackathon2025/blob/main/LicenseManager.sol) |
+| **License.sol**        | Handles creation, validation, and revocation of legal licenses across the protocol                                          | [View Code](https://github.com/wariomx/encodeHackathon2025/blob/main/License.sol)        |
+| **Treasury.sol**       | Manages the DAO's financial operations, token allocations, and transfers                                                    | [View Code](https://github.com/wariomx/encodeHackathon2025/blob/main/Treasury.sol)       |
+| **Token.sol**          | ERC-20 compliant token providing governance rights and protocol utility                                                     | [View Code](https://github.com/wariomx/encodeHackathon2025/blob/main/Token.sol)          |
+|                        |
 
 ## ⚙️ Development Guide
 
 ### Prerequisites
 
-- Node.js (v16+)
+- Node.js
 - pnpm
+- solidity
+- Typescript
+
+### AI Tools
+
+- Claude
+- Cursor
 
 ### Local Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/softlaw.git
-cd softlaw
+git clone https://github.com/wariomx/encodeHackathon2025/
+cd encodeHackathon2025
 
 # Install dependencies
 pnpm install
 ```
+
+### Citation and documentation followed.
+
+Open Zeppellin: [View Code](https://docs.openzeppelin.com/contracts/5.x/)
+Solidity: [View Code](https://docs.soliditylang.org/en/v0.8.28/)
+Contracts Polkadot: [View Code](https://contracts.polkadot.io/build-your-first-dapp)
 
 ### Development Workflow
 
@@ -60,10 +75,6 @@ pnpm install
 3. Deploy contracts:
    ```bash
    pnpm deploy-contracts
-   ```
-4. Export contract data:
-   ```bash
-   pnpm export
    ```
 
 ### Environment Variables
@@ -78,7 +89,6 @@ RPC_URL=https://westend-asset-hub-eth-rpc.polkadot.io
 - `ACCOUNT_SEED`: Seed phrase for the account that will sign the deployment
 - `RPC_URL`: RPC endpoint
   - For Westend Asset Hub: `https://westend-asset-hub-eth-rpc.polkadot.io`
-  - For local development: `http://localhost:8545`
 
 ## 🔗 Related Projects
 
@@ -98,5 +108,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for the decentralized legal future</sub>
+  <sub>Built with ❤️ for the Polkadot Community</sub>
 </div>
